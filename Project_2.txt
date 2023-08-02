@@ -1,0 +1,27 @@
+RUN A JAVA PROJECT ON TOMACT SERVER AND INTEGRATE IT WITH APACHE
+=================================================================
+
+Web aplications are three types
+
+1.1_tire apps
+2.2_tire apps
+3.3_tire apps
+
+present im using 3_tire-app project 
+
+requriments
+------------
+
+1.ec2 instance with public subnet (in this project im useing default vpc and subnets)
+2.java 1.8
+3.jvm home path
+4.download tomcat packages
+5.unzip package 
+6.move packageer /etc
+7.create soft link
+8.bin/run .sh file
+9.install httpd (webapp) package
+10.start the httpd service
+11.check httpd with port number (publicip address with 80 port number)
+12.communicate the webapp server and tomcat server
+	0.0.0.0:8080 ---> 0.0.0.0:80
